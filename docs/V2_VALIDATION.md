@@ -96,17 +96,36 @@ The dataset is synthetic and based on the seed articles; it is not a held-out qu
 Mock AI and SDK transport tests are engineering checks, not real-model scores. No live OpenAI
 evaluation was run, and no fee was incurred. Optional live evaluation requires explicit opt-in.
 
-Linux / Python 3.11, remote GitHub Actions, load, mobile layout and enterprise security remain
-unverified. Duplicate and SLA queue scans target demo-scale datasets. There is no authentication,
+At the original local audit, Linux / Python 3.11 and remote GitHub Actions had not yet been
+checked; the later publication results below supersede that boundary. Load, mobile layout and
+enterprise security remain unverified. Duplicate and SLA queue scans target demo-scale datasets.
+There is no authentication,
 tamper-resistant auditing, background alerting or business-hours calendar.
 
 ## Git state
 
 The initial repository was on `main` with untracked files and **no commits**, so there was no
 existing commit history to replace. Created local `v2-development` branch without deleting
-history or committing under an invented identity. No remote is configured and nothing was pushed.
+history or committing under an invented identity. At that audit point no remote was configured
+and nothing had been pushed.
 The file-change inventory below compares with the pre-V2 source snapshot because Git had no
 committed baseline.
+
+## GitHub publication follow-up
+
+Published to [chenyue-wang-usyd/ai-it-support-assistant](https://github.com/chenyue-wang-usyd/ai-it-support-assistant)
+after the user authorized upload. The first published commit is
+`891c2b8912fce3d936361b460d238c559f585491` on `main`.
+
+[GitHub Actions run 43202041756](https://github.com/chenyue-wang-usyd/ai-it-support-assistant/actions/runs/43202041756)
+completed successfully on **Ubuntu / Python 3.11 and Python 3.12**. Both jobs passed dependency
+installation, Ruff checks, formatting checks, the automated test suite and offline rule evaluation.
+This adds actual remote Linux verification to the earlier local Windows evidence.
+
+The public README and screenshot URLs were checked successfully. `.env` and `data/helpdesk.db`
+are absent from the remote. Credentials and database backups were excluded from the commit.
+No paid OpenAI call or live model evaluation was performed. The README badge shows the latest
+workflow status; the run linked here is preserved evidence for the first published code commit.
 
 ## File changes relative to V1
 

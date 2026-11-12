@@ -453,6 +453,8 @@ No tests or new code were excluded to maintain the V1 coverage figure.
 See [V2 validation](docs/V2_VALIDATION.md) and the retained [V1 validation](docs/VALIDATION.md).
 GitHub Actions runs the checks on Ubuntu with Python 3.11 and 3.12. The badge above links to
 the actual workflow status; local validation records retain their original verification dates.
+Both remote environments passed for the first published code commit; the linked V2 validation
+record includes the actual GitHub Actions run.
 
 ## Limitations
 
