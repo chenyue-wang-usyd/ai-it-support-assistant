@@ -1,0 +1,456 @@
+{
+  "mode": "Rule-based Demo Mode evaluation",
+  "model": null,
+  "case_count": 24,
+  "service_successes": 24,
+  "classification_accuracy": 0.9583333333333334,
+  "retrieval_hit_at_3": 1.0,
+  "retrieval_denominator": 21,
+  "escalation_accuracy": 0.9166666666666666,
+  "no_expected_article_cases": 3,
+  "retrieval_abstentions_on_unknown": 2,
+  "cases": [
+    {
+      "id": "E01",
+      "group": "Wi-Fi",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Network / Wi-Fi",
+      "predicted_category": "Network / Wi-Fi",
+      "classification_correct": true,
+      "expected_article": "KB-001",
+      "retrieved_article_ids": [
+        "KB-001",
+        "KB-002",
+        "KB-009"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": false,
+      "predicted_escalation": false,
+      "escalation_correct": true
+    },
+    {
+      "id": "E02",
+      "group": "Wi-Fi",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Network / Wi-Fi",
+      "predicted_category": "Network / Wi-Fi",
+      "classification_correct": true,
+      "expected_article": "KB-002",
+      "retrieved_article_ids": [
+        "KB-002",
+        "KB-001",
+        "KB-003"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": false,
+      "predicted_escalation": false,
+      "escalation_correct": true
+    },
+    {
+      "id": "E03",
+      "group": "Wi-Fi",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Network / Wi-Fi",
+      "predicted_category": "Network / Wi-Fi",
+      "classification_correct": true,
+      "expected_article": "KB-002",
+      "retrieved_article_ids": [
+        "KB-001",
+        "KB-002",
+        "KB-003"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": true,
+      "predicted_escalation": true,
+      "escalation_correct": true
+    },
+    {
+      "id": "E04",
+      "group": "VPN",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Network / Wi-Fi",
+      "predicted_category": "Network / Wi-Fi",
+      "classification_correct": true,
+      "expected_article": "KB-003",
+      "retrieved_article_ids": [
+        "KB-003",
+        "KB-013",
+        "KB-002"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": false,
+      "predicted_escalation": false,
+      "escalation_correct": true
+    },
+    {
+      "id": "E05",
+      "group": "VPN",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Network / Wi-Fi",
+      "predicted_category": "Network / Wi-Fi",
+      "classification_correct": true,
+      "expected_article": "KB-003",
+      "retrieved_article_ids": [
+        "KB-003",
+        "KB-011",
+        "KB-013"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": false,
+      "predicted_escalation": false,
+      "escalation_correct": true
+    },
+    {
+      "id": "E06",
+      "group": "Hardware",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Hardware",
+      "predicted_category": "Hardware",
+      "classification_correct": true,
+      "expected_article": "KB-007",
+      "retrieved_article_ids": [
+        "KB-007",
+        "KB-017"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": false,
+      "predicted_escalation": false,
+      "escalation_correct": true
+    },
+    {
+      "id": "E07",
+      "group": "Hardware",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Hardware",
+      "predicted_category": "Hardware",
+      "classification_correct": true,
+      "expected_article": "KB-008",
+      "retrieved_article_ids": [
+        "KB-008"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": false,
+      "predicted_escalation": false,
+      "escalation_correct": true
+    },
+    {
+      "id": "E08",
+      "group": "Hardware",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Hardware",
+      "predicted_category": "Hardware",
+      "classification_correct": true,
+      "expected_article": "KB-009",
+      "retrieved_article_ids": [
+        "KB-009",
+        "KB-018",
+        "KB-001"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": true,
+      "predicted_escalation": true,
+      "escalation_correct": true
+    },
+    {
+      "id": "E09",
+      "group": "Hardware",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Hardware",
+      "predicted_category": "Other",
+      "classification_correct": false,
+      "expected_article": "KB-018",
+      "retrieved_article_ids": [
+        "KB-018"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": false,
+      "predicted_escalation": true,
+      "escalation_correct": false
+    },
+    {
+      "id": "E10",
+      "group": "Hardware",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Hardware",
+      "predicted_category": "Hardware",
+      "classification_correct": true,
+      "expected_article": "KB-018",
+      "retrieved_article_ids": [
+        "KB-018",
+        "KB-010"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": false,
+      "predicted_escalation": false,
+      "escalation_correct": true
+    },
+    {
+      "id": "E11",
+      "group": "Software",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Software",
+      "predicted_category": "Software",
+      "classification_correct": true,
+      "expected_article": "KB-004",
+      "retrieved_article_ids": [
+        "KB-004",
+        "KB-005",
+        "KB-016"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": false,
+      "predicted_escalation": false,
+      "escalation_correct": true
+    },
+    {
+      "id": "E12",
+      "group": "Software",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Software",
+      "predicted_category": "Software",
+      "classification_correct": true,
+      "expected_article": "KB-005",
+      "retrieved_article_ids": [
+        "KB-005",
+        "KB-004",
+        "KB-006"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": false,
+      "predicted_escalation": false,
+      "escalation_correct": true
+    },
+    {
+      "id": "E13",
+      "group": "Software",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Software",
+      "predicted_category": "Software",
+      "classification_correct": true,
+      "expected_article": "KB-006",
+      "retrieved_article_ids": [
+        "KB-006",
+        "KB-002"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": false,
+      "predicted_escalation": false,
+      "escalation_correct": true
+    },
+    {
+      "id": "E14",
+      "group": "Software",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Software",
+      "predicted_category": "Software",
+      "classification_correct": true,
+      "expected_article": "KB-017",
+      "retrieved_article_ids": [
+        "KB-017",
+        "KB-004",
+        "KB-005"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": false,
+      "predicted_escalation": false,
+      "escalation_correct": true
+    },
+    {
+      "id": "E15",
+      "group": "Account",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Account / Login",
+      "predicted_category": "Account / Login",
+      "classification_correct": true,
+      "expected_article": "KB-010",
+      "retrieved_article_ids": [
+        "KB-010",
+        "KB-012",
+        "KB-011"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": false,
+      "predicted_escalation": false,
+      "escalation_correct": true
+    },
+    {
+      "id": "E16",
+      "group": "Account",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Account / Login",
+      "predicted_category": "Account / Login",
+      "classification_correct": true,
+      "expected_article": "KB-011",
+      "retrieved_article_ids": [
+        "KB-011"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": false,
+      "predicted_escalation": false,
+      "escalation_correct": true
+    },
+    {
+      "id": "E17",
+      "group": "Account",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Account / Login",
+      "predicted_category": "Account / Login",
+      "classification_correct": true,
+      "expected_article": "KB-012",
+      "retrieved_article_ids": [
+        "KB-012",
+        "KB-010",
+        "KB-011"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": false,
+      "predicted_escalation": false,
+      "escalation_correct": true
+    },
+    {
+      "id": "E18",
+      "group": "Email",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Email",
+      "predicted_category": "Email",
+      "classification_correct": true,
+      "expected_article": "KB-013",
+      "retrieved_article_ids": [
+        "KB-013",
+        "KB-015",
+        "KB-014"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": false,
+      "predicted_escalation": false,
+      "escalation_correct": true
+    },
+    {
+      "id": "E19",
+      "group": "Email",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Email",
+      "predicted_category": "Email",
+      "classification_correct": true,
+      "expected_article": "KB-015",
+      "retrieved_article_ids": [
+        "KB-015",
+        "KB-014",
+        "KB-013"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": false,
+      "predicted_escalation": false,
+      "escalation_correct": true
+    },
+    {
+      "id": "E20",
+      "group": "Email",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Email",
+      "predicted_category": "Email",
+      "classification_correct": true,
+      "expected_article": "KB-014",
+      "retrieved_article_ids": [
+        "KB-014",
+        "KB-010",
+        "KB-013"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": true,
+      "predicted_escalation": true,
+      "escalation_correct": true
+    },
+    {
+      "id": "E21",
+      "group": "Ambiguous",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Other",
+      "predicted_category": "Other",
+      "classification_correct": true,
+      "expected_article": null,
+      "retrieved_article_ids": [],
+      "retrieval_hit": null,
+      "expected_escalation": true,
+      "predicted_escalation": true,
+      "escalation_correct": true
+    },
+    {
+      "id": "E22",
+      "group": "Unknown",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Other",
+      "predicted_category": "Other",
+      "classification_correct": true,
+      "expected_article": null,
+      "retrieved_article_ids": [],
+      "retrieval_hit": null,
+      "expected_escalation": true,
+      "predicted_escalation": true,
+      "escalation_correct": true
+    },
+    {
+      "id": "E23",
+      "group": "Ambiguous",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Other",
+      "predicted_category": "Other",
+      "classification_correct": true,
+      "expected_article": null,
+      "retrieved_article_ids": [
+        "KB-016",
+        "KB-003",
+        "KB-006"
+      ],
+      "retrieval_hit": null,
+      "expected_escalation": true,
+      "predicted_escalation": false,
+      "escalation_correct": false
+    },
+    {
+      "id": "E24",
+      "group": "Software",
+      "actual_mode": "Rule-based Demo Mode",
+      "service_success": true,
+      "expected_category": "Software",
+      "predicted_category": "Software",
+      "classification_correct": true,
+      "expected_article": "KB-004",
+      "retrieved_article_ids": [
+        "KB-016",
+        "KB-004",
+        "KB-005"
+      ],
+      "retrieval_hit": true,
+      "expected_escalation": false,
+      "predicted_escalation": false,
+      "escalation_correct": true
+    }
+  ],
+  "dataset_sha256": "7c01de0affa143087ff525dcb95f8c0f5622b0677a0d1edb5b88911627244f20",
+  "knowledge_base_sha256": "fef22652bcc9f9518b51466641e82298150355ada49658e8ad543b990852b736",
+  "generated_at": "2026-11-12T03:53:42.663587+00:00"
+}

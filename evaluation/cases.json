@@ -1,0 +1,290 @@
+[
+  {
+    "id": "E01",
+    "group": "Wi-Fi",
+    "input": {
+      "title": "Laptop cannot connect to Wi-Fi",
+      "description": "My laptop cannot connect to Wi-Fi, but other devices work normally.",
+      "category": null
+    },
+    "expected_category": "Network / Wi-Fi",
+    "expected_article": "KB-001",
+    "expected_escalation": false
+  },
+  {
+    "id": "E02",
+    "group": "Wi-Fi",
+    "input": {
+      "title": "Wi-Fi connected without internet",
+      "description": "The Wi-Fi shows connected but no website loads on my tablet.",
+      "category": null
+    },
+    "expected_category": "Network / Wi-Fi",
+    "expected_article": "KB-002",
+    "expected_escalation": false
+  },
+  {
+    "id": "E03",
+    "group": "Wi-Fi",
+    "input": {
+      "title": "Office wireless outage",
+      "description": "Wi-Fi is down for all users in the whole office.",
+      "category": null
+    },
+    "expected_category": "Network / Wi-Fi",
+    "expected_article": "KB-002",
+    "expected_escalation": true
+  },
+  {
+    "id": "E04",
+    "group": "VPN",
+    "input": {
+      "title": "Remote access times out",
+      "description": "The approved VPN client times out although ordinary internet works.",
+      "category": null
+    },
+    "expected_category": "Network / Wi-Fi",
+    "expected_article": "KB-003",
+    "expected_escalation": false
+  },
+  {
+    "id": "E05",
+    "group": "VPN",
+    "input": {
+      "title": "VPN authentication failure",
+      "description": "My VPN connection fails with an authentication error when I work remotely.",
+      "category": null
+    },
+    "expected_category": "Network / Wi-Fi",
+    "expected_article": "KB-003",
+    "expected_escalation": false
+  },
+  {
+    "id": "E06",
+    "group": "Hardware",
+    "input": {
+      "title": "External monitor is blank",
+      "description": "The external monitor shows no signal even though its power indicator is on.",
+      "category": null
+    },
+    "expected_category": "Hardware",
+    "expected_article": "KB-007",
+    "expected_escalation": false
+  },
+  {
+    "id": "E07",
+    "group": "Hardware",
+    "input": {
+      "title": "Print job is stuck",
+      "description": "The printer is offline and my documents remain in the queue.",
+      "category": null
+    },
+    "expected_category": "Hardware",
+    "expected_article": "KB-008",
+    "expected_escalation": false
+  },
+  {
+    "id": "E08",
+    "group": "Hardware",
+    "input": {
+      "title": "Swollen battery",
+      "description": "The laptop battery is swollen and there is a burning smell.",
+      "category": null
+    },
+    "expected_category": "Hardware",
+    "expected_article": "KB-009",
+    "expected_escalation": true
+  },
+  {
+    "id": "E09",
+    "group": "Hardware",
+    "input": {
+      "title": "Mouse stops responding",
+      "description": "My USB mouse does not respond after I reconnect its cable.",
+      "category": null
+    },
+    "expected_category": "Hardware",
+    "expected_article": "KB-018",
+    "expected_escalation": false
+  },
+  {
+    "id": "E10",
+    "group": "Hardware",
+    "input": {
+      "title": "Keyboard disconnected",
+      "description": "The keyboard is not responding and I cannot enter any text.",
+      "category": null
+    },
+    "expected_category": "Hardware",
+    "expected_article": "KB-018",
+    "expected_escalation": false
+  },
+  {
+    "id": "E11",
+    "group": "Software",
+    "input": {
+      "title": "Application crash at startup",
+      "description": "The accounting application crashes whenever I launch it.",
+      "category": null
+    },
+    "expected_category": "Software",
+    "expected_article": "KB-004",
+    "expected_escalation": false
+  },
+  {
+    "id": "E12",
+    "group": "Software",
+    "input": {
+      "title": "Cannot install software",
+      "description": "Installing approved software asks for administrator permission.",
+      "category": null
+    },
+    "expected_category": "Software",
+    "expected_article": "KB-005",
+    "expected_escalation": false
+  },
+  {
+    "id": "E13",
+    "group": "Software",
+    "input": {
+      "title": "Browser displays a blank page",
+      "description": "The browser shows a blank page for one website while other sites load.",
+      "category": null
+    },
+    "expected_category": "Software",
+    "expected_article": "KB-006",
+    "expected_escalation": false
+  },
+  {
+    "id": "E14",
+    "group": "Software",
+    "input": {
+      "title": "Slow application performance",
+      "description": "The application freezes and the computer is slow when many programs are open.",
+      "category": null
+    },
+    "expected_category": "Software",
+    "expected_article": "KB-017",
+    "expected_escalation": false
+  },
+  {
+    "id": "E15",
+    "group": "Account",
+    "input": {
+      "title": "Password rejected",
+      "description": "My account login says the password is incorrect even with Caps Lock off.",
+      "category": null
+    },
+    "expected_category": "Account / Login",
+    "expected_article": "KB-010",
+    "expected_escalation": false
+  },
+  {
+    "id": "E16",
+    "group": "Account",
+    "input": {
+      "title": "MFA notification missing",
+      "description": "I cannot log in because the MFA push notification never arrives.",
+      "category": null
+    },
+    "expected_category": "Account / Login",
+    "expected_article": "KB-011",
+    "expected_escalation": false
+  },
+  {
+    "id": "E17",
+    "group": "Account",
+    "input": {
+      "title": "Account lockout",
+      "description": "My account is locked after too many failed login attempts.",
+      "category": null
+    },
+    "expected_category": "Account / Login",
+    "expected_article": "KB-012",
+    "expected_escalation": false
+  },
+  {
+    "id": "E18",
+    "group": "Email",
+    "input": {
+      "title": "Outlook not sending",
+      "description": "Outlook email messages are stuck in the outbox and I cannot send mail.",
+      "category": null
+    },
+    "expected_category": "Email",
+    "expected_article": "KB-013",
+    "expected_escalation": false
+  },
+  {
+    "id": "E19",
+    "group": "Email",
+    "input": {
+      "title": "Attachment too large",
+      "description": "My email attachment cannot be sent because it exceeds the file size limit.",
+      "category": null
+    },
+    "expected_category": "Email",
+    "expected_article": "KB-015",
+    "expected_escalation": false
+  },
+  {
+    "id": "E20",
+    "group": "Email",
+    "input": {
+      "title": "Phishing report",
+      "description": "An unexpected phishing email asks me to enter my password through a link.",
+      "category": null
+    },
+    "expected_category": "Email",
+    "expected_article": "KB-014",
+    "expected_escalation": true
+  },
+  {
+    "id": "E21",
+    "group": "Ambiguous",
+    "input": {
+      "title": "Something is wrong",
+      "description": "Something stopped working after lunch and I do not know what changed.",
+      "category": null
+    },
+    "expected_category": "Other",
+    "expected_article": null,
+    "expected_escalation": true
+  },
+  {
+    "id": "E22",
+    "group": "Unknown",
+    "input": {
+      "title": "Specialized instrument fault",
+      "description": "The spectrometer gives calibration fault ZQX991 during a measurement.",
+      "category": null
+    },
+    "expected_category": "Other",
+    "expected_article": null,
+    "expected_escalation": true
+  },
+  {
+    "id": "E23",
+    "group": "Ambiguous",
+    "input": {
+      "title": "Intermittent disruption",
+      "description": "It sometimes fails, but I cannot identify the device or reproduce the symptom.",
+      "category": null
+    },
+    "expected_category": "Other",
+    "expected_article": null,
+    "expected_escalation": true
+  },
+  {
+    "id": "E24",
+    "group": "Software",
+    "input": {
+      "title": "Minor cosmetic application issue",
+      "description": "The application has a cosmetic issue, but a workaround is available.",
+      "category": null
+    },
+    "expected_category": "Software",
+    "expected_article": "KB-004",
+    "expected_escalation": false
+  }
+]

@@ -1,0 +1,201 @@
+[
+  {
+    "id": "KB-001",
+    "title": "Laptop cannot connect to Wi-Fi",
+    "category": "Network / Wi-Fi",
+    "symptoms": "Laptop Wi-Fi cannot connect but other devices work. Wireless network disconnected.",
+    "solution_steps": [
+      "Confirm Wi-Fi is enabled and airplane mode is off.",
+      "Check the selected network name and move closer to the access point.",
+      "Disconnect and reconnect using your own known network credentials; never share them.",
+      "Save your work and restart the laptop if safe. Contact IT if the issue persists."
+    ]
+  },
+  {
+    "id": "KB-002",
+    "title": "Connected to Wi-Fi with no internet",
+    "category": "Network / Wi-Fi",
+    "symptoms": "Wi-Fi connected but websites will not load; internet unavailable.",
+    "solution_steps": [
+      "Try a second trusted website and check whether another device is affected.",
+      "Check the organization's service status page using an alternative connection.",
+      "If multiple devices are affected, report the outage to IT with time and location."
+    ]
+  },
+  {
+    "id": "KB-003",
+    "title": "VPN connection fails",
+    "category": "Network / Wi-Fi",
+    "symptoms": "VPN remote access connection fails or times out.",
+    "solution_steps": [
+      "Confirm normal internet access works before connecting to VPN.",
+      "Check the VPN service status and verify the approved client is up to date.",
+      "Record the error code and contact IT; do not disable security software."
+    ]
+  },
+  {
+    "id": "KB-004",
+    "title": "Application crashes on launch",
+    "category": "Software",
+    "symptoms": "Software application app crashes freezes or closes unexpectedly.",
+    "solution_steps": [
+      "Save other work and close the affected application normally.",
+      "Reopen it and record the exact error message.",
+      "Check for updates through the approved software portal and contact IT if crashes continue."
+    ]
+  },
+  {
+    "id": "KB-005",
+    "title": "Software installation needs approval",
+    "category": "Software",
+    "symptoms": "Cannot install software application; admin permission required.",
+    "solution_steps": [
+      "Check whether the application is available in the approved company software portal.",
+      "Record the software name, version and business need.",
+      "Request IT approval; do not bypass administrator restrictions."
+    ]
+  },
+  {
+    "id": "KB-006",
+    "title": "Browser page fails to load",
+    "category": "Software",
+    "symptoms": "Browser website slow blank page loading error.",
+    "solution_steps": [
+      "Confirm the URL is correct and try a second trusted site.",
+      "Try an approved alternative browser or a private window.",
+      "Record the error and contact IT if it affects business applications."
+    ]
+  },
+  {
+    "id": "KB-007",
+    "title": "External monitor has no display",
+    "category": "Hardware",
+    "symptoms": "External monitor black screen no display no signal.",
+    "solution_steps": [
+      "Check the monitor power indicator and selected input source.",
+      "Inspect accessible display cable connections without opening equipment.",
+      "Use the operating system display settings to detect the monitor; report persistent issues to IT."
+    ]
+  },
+  {
+    "id": "KB-008",
+    "title": "Printer does not print",
+    "category": "Hardware",
+    "symptoms": "Printer offline print job stuck cannot print documents.",
+    "solution_steps": [
+      "Verify the correct printer is selected and check its visible status panel.",
+      "Check paper and accessible covers according to the printer instructions.",
+      "Record the error and contact IT; do not open electrical components or remove others' jobs."
+    ]
+  },
+  {
+    "id": "KB-009",
+    "title": "Battery overheating or swelling",
+    "category": "Hardware",
+    "symptoms": "Laptop battery hot overheating swollen burning smell smoke.",
+    "solution_steps": [
+      "Stop using the laptop and do not charge it.",
+      "Keep clear of a damaged battery; do not puncture it, open the laptop or attempt repair.",
+      "Contact IT immediately; use emergency services if there is smoke or immediate danger."
+    ]
+  },
+  {
+    "id": "KB-010",
+    "title": "Password not accepted",
+    "category": "Account / Login",
+    "symptoms": "Login sign in password incorrect account access denied.",
+    "solution_steps": [
+      "Check the username, keyboard layout and Caps Lock without sharing the password.",
+      "Use the official password reset page reached through a trusted bookmark.",
+      "Avoid repeated attempts and contact IT if the account is locked."
+    ]
+  },
+  {
+    "id": "KB-011",
+    "title": "MFA prompt not received",
+    "category": "Account / Login",
+    "symptoms": "MFA multi factor authentication code push not received login.",
+    "solution_steps": [
+      "Check the registered authenticator device has connectivity and correct time.",
+      "Use an approved recovery method if one was previously configured.",
+      "Contact IT for identity verification; never share one-time codes or approve unexpected prompts."
+    ]
+  },
+  {
+    "id": "KB-012",
+    "title": "Account locked after failed logins",
+    "category": "Account / Login",
+    "symptoms": "Account locked login failed too many password attempts.",
+    "solution_steps": [
+      "Stop repeated sign-in attempts.",
+      "Check the organization's account recovery guidance from a trusted portal.",
+      "Contact IT to verify your identity and investigate repeated lockouts."
+    ]
+  },
+  {
+    "id": "KB-013",
+    "title": "Email not sending or receiving",
+    "category": "Email",
+    "symptoms": "Email Outlook mailbox cannot send receive messages stuck outbox.",
+    "solution_steps": [
+      "Check your internet connection and the mail service status.",
+      "Check whether approved webmail works and note any delivery error code.",
+      "Contact IT with the error and timestamp, excluding confidential message content."
+    ]
+  },
+  {
+    "id": "KB-014",
+    "title": "Suspicious phishing email",
+    "category": "Email",
+    "symptoms": "Phishing suspicious email link attachment unexpected credential request.",
+    "solution_steps": [
+      "Do not open links or attachments and do not reply.",
+      "Report the message using the approved phishing reporting channel.",
+      "If you already interacted, contact IT security immediately using a known trusted channel."
+    ]
+  },
+  {
+    "id": "KB-015",
+    "title": "Email attachment exceeds size limit",
+    "category": "Email",
+    "symptoms": "Email large attachment file size exceeds limit cannot send.",
+    "solution_steps": [
+      "Check the attachment size and the mail service's documented limit.",
+      "Use the organization's approved file sharing service with intended-recipient access.",
+      "Confirm permissions before sharing and ask IT if delivery still fails."
+    ]
+  },
+  {
+    "id": "KB-016",
+    "title": "Gather useful troubleshooting information",
+    "category": "Other",
+    "symptoms": "Unknown issue intermittent problem support request information.",
+    "solution_steps": [
+      "Record the affected device, application, exact error and time the issue began.",
+      "Note recent changes and whether other users are affected.",
+      "Share these observations with IT, excluding passwords and confidential data."
+    ]
+  },
+  {
+    "id": "KB-017",
+    "title": "Slow computer performance",
+    "category": "Software",
+    "symptoms": "Computer laptop slow performance many applications freezes.",
+    "solution_steps": [
+      "Save your work and close applications you no longer need.",
+      "Check the operating system's built-in activity monitor for resource usage.",
+      "Restart when safe and contact IT if persistent; do not delete system files or disable protection."
+    ]
+  },
+  {
+    "id": "KB-018",
+    "title": "Keyboard or mouse not responding",
+    "category": "Hardware",
+    "symptoms": "Keyboard mouse USB input not responding disconnected.",
+    "solution_steps": [
+      "Check accessible cable connections or the device's battery indicator.",
+      "Try another available USB port if safe and allowed.",
+      "Record which devices work and contact IT if the issue persists."
+    ]
+  }
+]
